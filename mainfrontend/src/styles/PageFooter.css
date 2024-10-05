@@ -1,0 +1,63 @@
+/* PageFooter.css */
+html, body {
+  height: 100%; /* Ensure the body takes up full height */
+  margin: 0; /* Remove default margin */
+}
+
+.wrapper {
+  min-height: 100vh; /* Make sure wrapper takes full height */
+  display: flex;
+  flex-direction: column; /* Allow footer to stay at the bottom */
+}
+
+.footer {
+  background-color: #333; /* Dark background for contrast */
+  color: white; /* White text */
+  padding: 1rem; /* Padding around the footer */
+  text-align: center; /* Center-align text */
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-content {
+  max-width: 800px; /* Limit width */
+  margin: 0 auto; /* Center the footer content */
+}
+
+.footer-links {
+  margin: 1rem 0; /* Margin around links */
+}
+
+.footer-links a {
+  color: #ffcc00; /* Bright color for links */
+  margin: 0 1rem; /* Space between links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.social-media {
+  margin: 1rem 0; /* Space around social media links */
+}
+
+.social-media a {
+  color: #ffcc00; /* Bright color for social media links */
+  margin: 0 1rem; /* Space between links */
+}
+
+.back-to-top {
+  background-color: #ffcc00; /* Button color */
+  border: none; /* No border */
+  padding: 0.5rem 1rem; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin-top: 1rem; /* Space above the button */
+}
+
+.back-to-top:hover {
+  background-color: #e0b800; /* Darker shade on hover */
+}
+
+
+

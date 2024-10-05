@@ -1,0 +1,28 @@
+/* src/styles/Reminders.css */
+
+.reminders {
+    margin-top: 20px; /* Space above reminders section */
+    padding: 15px;    /* Padding inside the reminders box */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.reminders h3 {
+    font-size: 1.5rem; /* Header font size */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.reminders ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.reminders li {
+    padding: 10px; /* Padding for each reminder item */
+    border-bottom: 1px solid #ccc; /* Separator between items */
+}
+
+.reminders li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}

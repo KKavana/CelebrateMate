@@ -1,0 +1,28 @@
+/* styles/ReminderList.css */
+.reminder-list {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reminder-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .reminder-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reminder-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reminder-list li:last-child {
+    border-bottom: none;
+  }
+  
+  

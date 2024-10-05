@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-around; /* Space links evenly */
+  align-items: center; /* Center vertically */
+  background-color: #3498db; /* Navbar background color */
+  padding: 1rem; /* Padding around the navbar */
+  position: sticky; /* Stay at the top on scroll */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.navbar a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Space around text */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.navbar a:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+.navbar a.active {
+  font-weight: bold; /* Make the active link bold */
+  background-color: #2980b9; /* Active link color */
+  border-radius: 5px; /* Rounded corners for active link */
+}
+
+
+  
+  

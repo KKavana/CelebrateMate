@@ -1,0 +1,29 @@
+{
+  "name": "birthday-reminder-bot",
+  "version": "1.1.0",
+  "description": "This is a Bot which will remind me to wish Birthday to my friends.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": {
+    "name": "Alok Raj",
+    "email": "alokr417@gmail.com",
+    "url": "https://alok722.github.io/alokraj/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.0",
+    "inspirational-quotes": "^2.0.1",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

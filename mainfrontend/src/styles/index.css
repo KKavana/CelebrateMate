@@ -1,0 +1,35 @@
+/* Homepage Specific Styles */
+.homepage {
+    text-align: center; /* Centering content */
+    padding: 20px; /* Spacing around the content */
+  }
+  
+  .celebration-gif {
+    max-width: 100%; /* Responsive GIF */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Button Styles */
+  .get-started-button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded; /* Tailwind utility classes */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .get-started-button:hover {
+    @apply bg-blue-700; /* Darker blue on hover */
+  }
+  
+  /* Additional Styles for Other Components */
+  .navbar {
+    background-color: #ffffff; /* White background for navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Footer Styles */
+  .page-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff; /* Blue background for footer */
+    color: white; /* White text color */
+  }
+  
